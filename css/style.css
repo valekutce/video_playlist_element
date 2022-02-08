@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-   max-width: 800px;
+   max-width: 900px;
    margin:0px auto;
    display: flex;
    flex-wrap: wrap;
@@ -24,7 +24,7 @@ body{
 }
 
 .container .main-video-container{
-   flex:1 1 700px;
+   flex:1 1 550px;
    border-radius: 5px;
    box-shadow: 0 5px 15px rgba(0,0,0,.1);
    background-color: #fff;
@@ -43,7 +43,7 @@ body{
 }
 
 .container .video-list-container{
-   flex:1 1 350px;
+   flex:1 1 325px;
    height: 350px;
    overflow-y: scroll;
    border-radius: 5px;
