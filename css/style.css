@@ -18,7 +18,6 @@ body{
    max-width: 900px;
    margin:0px auto;
    display: flex;
-   flex-wrap: wrap;
    align-items: flex-start;
    gap:20px;
 }
@@ -99,20 +98,6 @@ body{
    color:#444;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:1200px){
 
    .container{
@@ -120,7 +105,12 @@ body{
    }
 
 }
-
+@media (max-width: 768px) {
+   .container{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
 @media (max-width:450px){
 
    .container .main-video-container .main-vid-title{
